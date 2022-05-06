@@ -1,4 +1,3 @@
-# AD.hacker
 MAGENTABG="$(printf '\033[45m')" CYANBG="$(printf '\033[46m')" WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
 
 clear
@@ -53,7 +52,7 @@ then
             	python3 -m pip install smtp
             	sleep 0.8
             	echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Succesful Installed..!"
-         	echo ""
+            	echo ""
             	
 else
 
